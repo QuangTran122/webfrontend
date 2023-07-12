@@ -1,0 +1,27 @@
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+h2{
+    font-weight: 700px;
+    text-transform: capitalize;
+}
+p{
+    color: rgb(8, 8, 8);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+div{
+    background: #3E474F;
+    color: #fff;
+    padding: 20px 10px 20px 10px;
+}
+span{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgb(189, 185, 185);
+  }

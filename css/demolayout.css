@@ -1,0 +1,61 @@
+.block{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.block-top h1{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+.block-top p{
+    font-size: 20px;
+    color: rgb(163, 163, 192);
+    text-align: center;
+    width: 640px;
+    margin: 0 auto; /* vào giữa */
+
+}
+.btn{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+   
+}
+.btn a{
+    color: bisque;
+    font-size: 16px;
+    padding: 6px 12px;
+    background-color: gray;
+    text-decoration: none;  /* mất gạch chân */
+    border-radius: 5px;
+}
+.btn .btn-blue{
+    background-color: rgba(61, 13, 236, 0.863);
+}
+.block-bottom{
+    background-color: rgb(228, 224, 224);
+    padding-top: 40px;
+}
+img{
+    max-width: 100%;
+}
+.grid-container{
+    float: left;
+    width: 100%;
+    display: flex; /*làm cho các phần tử con giãn đều */
+}
+.card{
+    margin: 15px;
+    border: 1px solid gray;
+    display: block;
+    border-radius: 5px;
+}
+.card .card-body{
+    padding: 15px;
+}

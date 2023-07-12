@@ -1,0 +1,58 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+img{
+    max-width: 100%; /* 100% trong khối chứa nó */
+}
+div{
+    width: calc(33% - 42px); 
+ /*   float: left;  /* kỹ thuật dồn khối */ 
+    margin: 10px 10px 30px; /* giãn biên độ */
+    padding: 10px;  /* từ trong border đi ra */
+
+}
+.album{
+    width: 100%;
+    background-color: rgb(230, 222, 112);
+    text-align: center;
+}
+
+.dacbiet{
+    float: left;  /* kỹ thuật dồn khối */ 
+    background-color: rgb(230, 222, 112);
+
+}
+.main{
+    font-size: 30px;
+    background-color: #00a2ff;
+    border: 5px solid   #ffffff;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.secon{
+    font-size: 30px;
+    background-color: #464647;
+    border: 5px solid   #ffffff;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.View{
+    font-size: 14px;
+    background-color: #f4f4f8;
+    border: 1px solid #ffffff;
+    color: rgb(10, 241, 22);
+    padding: 10px;
+  
+}
+.Edit{
+    font-size: 14px;
+    background-color: #f3f3f8;
+    border: 1px solid #ffffff;
+    color: #0cf02a;
+    padding: 10px;
+   
+}

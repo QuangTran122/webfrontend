@@ -1,0 +1,31 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%; /* 100% trong khối chứa nó */
+}
+div{
+    width: calc(33% - 42px); 
+    float: left;  /* kỹ thuật dồn khối */
+    margin: 10px 10px 30px; /* giãn biên độ */
+  /*
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+    */
+    border: 1px solid red; 
+    padding: 10px;  /* từ trong border đi ra */
+   /*
+    padding-top: ;
+    padding-right: ;
+    padding-bottom: ;
+    padding-left: ;
+    */
+    border-radius: 10px;
+}
+.dacbiet{
+    background-color: rgb(230, 222, 112);
+    border: 1px solid orange;
+}

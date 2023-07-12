@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    width: 19%; 
+    float: left;
+  /*  margin: 10px 40px 30px 130px ;*/
+  box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
+
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 10px;
+}
+.freetop{
+   
+    border: 2px solid gray;
+    text-align: center;
+   
+}
+.freebottom{
+   
+    border: 2px solid greenyellow;
+    text-align: center;
+    
+}

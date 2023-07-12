@@ -1,0 +1,19 @@
+h1{
+    color: red;
+}
+p{
+    color: #166975; /* mã hexa */
+    font-size: 16px; /* pixel */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400; /* 400 normal; 700 bold*/
+    line-height: 1.5;
+    text-align: justify; /* canh lề: left, right, center, justify*/
+
+    width: 600px; /* điều chỉnh độ rộng đoạn văn */
+    
+}
+span{
+    text-decoration: underline;
+    text-transform: none; /*uppercase  lowercase   apitalize*/
+    background-color: #0000ff;
+}
