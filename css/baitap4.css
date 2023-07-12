@@ -35,12 +35,12 @@
     float: left;
     font-size: 40px;
     padding: 10px;
-    margin-left: 300px;
+    margin-left: 400px;
     color: aliceblue;
 }
 .block .img{
     float: right;
-    margin-right: 400px;
+    margin-right: 500px;
     height: 100px;
 }
 .grid-container{
