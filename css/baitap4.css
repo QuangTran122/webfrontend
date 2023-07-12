@@ -1,8 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .block{
     float: left;
     width: 100%;
 }
 .container{
-    width: 1400px;
+
+    width: 1200px;
     margin: 0 auto;
+}
+.block-header{
+        background-color: rgb(238, 185, 86);  
+        padding: 10px; 
+}
+.header .logo{
+    float: left;  
+}
+.header .menu{
+    float: right;
+    margin: 10px;
+}
+.header li{
+    display: inline-flex;
+    margin: 10px;
+    text-decoration: none;
+}
+.block-center1{
+    background-color: rgb(238, 185, 86);  
+    padding: 10px;
+}
+.block .think{
+    float: left;
+    font-size: 40px;
+    padding: 10px;
+    margin-left: 300px;
+    color: aliceblue;
+}
+.block .img{
+    float: right;
+    margin-right: 400px;
+    height: 100px;
+}
+.grid-container{
+    float: left;
+    width: 100%;
+    display: flex; /*làm cho các phần tử con giãn đều */
+}
+.card{
+    margin: 15px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+}
+.card .thu{
+    padding: 15px;
+    
+}
+.card .traitim{
+    padding: 15px;
+}
+.block-center2{
+    background-color: rgb(251, 251, 252);
+    padding: 10px;
+}
+.block-bottom1{
+    background-color: rgb(8, 161, 115);
+    padding: 80px;
+}
+.grid-container2{ 
+    background-color: rgb(8, 161, 115);
+    text-align: center;
+ 
+}
+.grid-container2 .work h1{
+    color: rgb(250, 251, 252);
+}
+.grid-container2 .doan p{
+    margin-left: 300px;
+    margin-right: 400px;
+    padding: 10px;
+    color: aliceblue;
+   
+}
+
+.block-bottom2{
+    background-color: rgb(8, 161, 115);
+    padding: 20px;
+    
+}
+.menu-bottom2{
+  
+    display: flex;
+   
+}
+
+.menu-bottom2 li{
+    display: inline-flex;
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
 }
