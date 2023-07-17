@@ -4,25 +4,46 @@
     width: 100%;
 }
 .container{
-    width: 1400px;
+    width: 1200px;
     margin: 0 auto;
 }
 
 .container .nav{
-    
+    min-height: 42px;
     background-color: rgb(216, 216, 218);
     display: flex;
+    justify-content: space-between;
 
 }
 .nav .logo-left{
     padding-left: 0px;
-    margin: auto 16px;
+    margin-left: 20px;
 }
 .nav-center{
     padding-left: 0;
+
 }
 .nav-item{
-    color: #000;
+    color: #080808;
     list-style: none;
     display: inline-flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+.nav-right{
+    float: left;
+    color: #080808;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+.grid-container{
+    display: flex;
+    padding: 0 16px;
+    justify-content: space-between;
+    
+}
+.grid-container .grid1{
+    flex: 2;
 }
