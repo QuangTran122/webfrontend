@@ -1,0 +1,16 @@
+.nav{
+    min-height: 42px;
+    background-color: #f84c20;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list{
+    padding-left: 0;
+    margin: auto 16px;
+}
+.nav-item{
+    color: aliceblue;
+    list-style: none;
+    display: inline-flex;
+    margin: 0 8px;
+}
